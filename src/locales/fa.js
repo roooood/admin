@@ -1,0 +1,32 @@
+export default {
+  dashboard: "داشبرد",
+  deposit: "سپرده گذاری",
+  withdraw: "برداشت",
+  finance: "پلن های سرمایه گذاری",
+  referral: "دعوت از دوستان",
+  tiket: "تیکت ها",
+  candle: "نمودار قیمت ها",
+  profile: "پروفایل",
+
+  signUp: "ثبت نام",
+  login: "ورود",
+  username: "نام کامل",
+  email: "ایمیل",
+  password: "کلمه عبور",
+  referralCode: "کد معرف",
+  haveAccount: "قبلا ثبت نام کرده اید؟",
+  empty: "لطفا این فیلد را پر کنید",
+  min: "مقدار این فیلد کمتر از حد مجاز است",
+  invalid: "مقدار این فیلد به درستی وارد نشده است",
+
+  invest: "سپرده ",
+  totalInvest: "مبلغ سپرده سرمایه گذاری",
+  profit: "سود سپرده",
+  totalProfit: "مبلغ سود سپرده",
+  referrals: "دعوت شده ها",
+  totalReferrals: "نفرات دعوت شده",
+  atGlance: "در یک نگاه",
+  subject: "موضوع",
+  status: "وضعیت",
+  recentTiket: "آخرین تیکت ها"
+};

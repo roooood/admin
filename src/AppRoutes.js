@@ -4,8 +4,8 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import Spinner from "./app/shared/Spinner";
 
 const Dashboard = lazy(() => import("route/dashboard/dashboard"));
-const Register = lazy(() => import("route/register/register"));
-
+const Register = lazy(() => import("route/sign/register"));
+const Activate = lazy(() => import("route/sign/activate"));
 
 const Buttons = lazy(() => import("./app/basic-ui/Buttons"));
 const Dropdowns = lazy(() => import("./app/basic-ui/Dropdowns"));
@@ -34,6 +34,7 @@ class AppRoutes extends Component {
         <Switch>
           <Route exact path="/dashboard" component={Dashboard} />
           <Route path="/register" component={Register} />
+          <Route path="/activate" component={Activate} />
 
           <Route path="/basic-ui/buttons" component={Buttons} />
           <Route path="/basic-ui/dropdowns" component={Dropdowns} />

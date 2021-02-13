@@ -26,6 +26,7 @@ const App = (props) => {
     const body = document.querySelector("body");
     const fullPageLayoutRoutes = [
       "/login",
+      "/activate",
       "/register",
       "/error-404",
       "/error-500",

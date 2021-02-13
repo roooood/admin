@@ -10,14 +10,20 @@ export default {
 
   signUp: "ثبت نام",
   login: "ورود",
-  username: "نام کامل",
+  name: "نام کاربری",
   email: "ایمیل",
   password: "کلمه عبور",
   referralCode: "کد معرف",
+  code: "کد فعال سازی",
+  activate: " فعال سازی",
+  reSend: "ارسال مجدد",
+  activateNotSended: "کد فعال سازی ارسال نشده ؟",
   haveAccount: "قبلا ثبت نام کرده اید؟",
-  empty: "لطفا این فیلد را پر کنید",
-  min: "مقدار این فیلد کمتر از حد مجاز است",
-  invalid: "مقدار این فیلد به درستی وارد نشده است",
+  "validation.empty": " این فیلد را پر کنید",
+  "validation.required": "خالی هست",
+  "validation.min": "مقدار این فیلد کمتر از حد مجاز است",
+  "validation.email": "ایمیل به درستی وارد نشده است",
+  "validation.exist": "وارد شده تکراری است",
 
   invest: "سپرده ",
   totalInvest: "مبلغ سپرده سرمایه گذاری",
@@ -28,5 +34,5 @@ export default {
   atGlance: "در یک نگاه",
   subject: "موضوع",
   status: "وضعیت",
-  recentTiket: "آخرین تیکت ها"
+  recentTiket: "آخرین تیکت ها",
 };
